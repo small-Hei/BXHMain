@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BXHCategory (0.0.1)
+  - BXHStringTool (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BXHCategory (from `/Users/yit/Desktop/componts/BXHCategory`)
+  - BXHStringTool (from `/Users/yit/Desktop/componts/BXHStringTool`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  BXHCategory:
+    :path: "/Users/yit/Desktop/componts/BXHCategory"
+  BXHStringTool:
+    :path: "/Users/yit/Desktop/componts/BXHStringTool"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BXHCategory: c4b64bd0bc386500158f15454af741dc9688281b
+  BXHStringTool: dcfcd48a72f3544f24c9d77bfacc575924549c58
+
+PODFILE CHECKSUM: 68d3cf52e583a1b089eff1a207a62537e0853bf6
+
+COCOAPODS: 1.9.3

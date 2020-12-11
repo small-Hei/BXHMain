@@ -1,0 +1,6 @@
+framework module BXHCategory {
+  umbrella header "BXHCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
