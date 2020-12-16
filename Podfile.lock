@@ -14,29 +14,40 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - BXHCategory (0.0.1)
+  - BXHCategory (0.0.2):
+    - KVOController
+    - SDWebImage
+  - BXHLibraryExtension (0.0.1)
   - BXHStringTool (0.0.1)
+  - KVOController (1.2.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
 
 DEPENDENCIES:
   - AFNetworking
-  - BXHCategory (from `/Users/yit/Desktop/componts/BXHCategory`)
-  - BXHStringTool (from `/Users/yit/Desktop/componts/BXHStringTool`)
+  - BXHCategory (= 0.0.2)
+  - BXHLibraryExtension (= 0.0.1)
+  - BXHStringTool (= 0.0.1)
 
 SPEC REPOS:
-  trunk:
+  https://gitee.com/bai_xiao_hei/bxh-pods.git:
+    - BXHCategory
+    - BXHLibraryExtension
+    - BXHStringTool
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-
-EXTERNAL SOURCES:
-  BXHCategory:
-    :path: "/Users/yit/Desktop/componts/BXHCategory"
-  BXHStringTool:
-    :path: "/Users/yit/Desktop/componts/BXHStringTool"
+    - KVOController
+    - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  BXHCategory: c4b64bd0bc386500158f15454af741dc9688281b
-  BXHStringTool: dcfcd48a72f3544f24c9d77bfacc575924549c58
+  BXHCategory: bdce348e7cf0d70b0fb0260d4227fcd205f4f456
+  BXHLibraryExtension: cc0865ebf5651e12d638a82666e25bad948e2f9a
+  BXHStringTool: d40f4a7828f3362e428641e86c03a23f5518a5fa
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
 
-PODFILE CHECKSUM: 68d3cf52e583a1b089eff1a207a62537e0853bf6
+PODFILE CHECKSUM: 6558a09cd4707cb25619dbf70b11ce54506699c8
 
 COCOAPODS: 1.9.3

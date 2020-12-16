@@ -1,0 +1,6 @@
+framework module BXHStringTool {
+  umbrella header "BXHStringTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD494A884DE47DBC9651BDEEFF79F79B"
-               BuildableName = "BXHStringTool"
+               BuildableName = "BXHStringTool.framework"
                BlueprintName = "BXHStringTool"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

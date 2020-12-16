@@ -1,3 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-BXHMain/Pods-BXHMain-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/BXHCategory/BXHCategory.framework
+${BUILT_PRODUCTS_DIR}/BXHLibraryExtension/BXHLibraryExtension.framework
+${BUILT_PRODUCTS_DIR}/BXHStringTool/BXHStringTool.framework
+${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
